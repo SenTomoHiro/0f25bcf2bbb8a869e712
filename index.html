@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,nofollow,noarchive,nosnippet" />
+    <meta name="theme-color" content="#24140f" />
+    <script>
+      (() => {
+        const key = "traditional-calendar-theme";
+        let preference = "system";
+        try {
+          const saved = localStorage.getItem(key);
+          if (saved === "light" || saved === "dark" || saved === "system") preference = saved;
+        } catch {}
+        const dark = preference === "dark" || (preference === "system" && matchMedia("(prefers-color-scheme: dark)").matches);
+        document.documentElement.dataset.themePreference = preference;
+        document.documentElement.dataset.theme = dark ? "dark" : "light";
+        document.querySelector('meta[name="theme-color"]').content = dark ? "#120b08" : "#24140f";
+      })();
+    </script>
+    <title>Web Tool</title>
+    <script type="module" crossorigin src="/0f25bcf2bbb8a869e712/assets/index-DSH0-YjS.js"></script>
+    <link rel="stylesheet" crossorigin href="/0f25bcf2bbb8a869e712/assets/index-BhYP7fla.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
