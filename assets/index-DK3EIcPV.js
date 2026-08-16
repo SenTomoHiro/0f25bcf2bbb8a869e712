@@ -1347,7 +1347,7 @@
 五月十三：关圣帝君降神
 五月十三：关帝磨刀日
 五月十六：天地主炁及造化万物之辰
-五月十八：张天师圣诞
+五月十八：湛然天师圣诞
 五月二十：丹阳马真人圣诞
 五月廿九：许威显王圣诞
 
@@ -1774,7 +1774,7 @@
               <div><dt>历法日</dt><dd>${$}</dd></div>
               <div><dt>节气</dt><dd>${G}</dd></div>
               <div><dt>定位环境</dt><dd>${an()}</dd></div>
-              <div><dt>版本</dt><dd data-app-version>9524fb4</dd></div>
+              <div><dt>版本</dt><dd data-app-version>96c6283</dd></div>
             </dl>
             <p class="calculation-note">当前统一按${K}计算；23:00进入子时，日柱仍在00:00换日</p>
           </details>
