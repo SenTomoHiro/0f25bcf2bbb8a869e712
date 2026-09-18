@@ -5139,7 +5139,7 @@
               <div><dt>历法日</dt><dd>${H}</dd></div>
               <div><dt>节气</dt><dd>${p}</dd></div>
               <div><dt>定位环境</dt><dd>${Su()}</dd></div>
-              <div><dt>版本</dt><dd data-app-version>7234ea6</dd></div>
+              <div><dt>版本</dt><dd data-app-version>3899523</dd></div>
             </dl>
             <p class="calculation-note">当前统一按${e0}计算；23:00进入子时，日柱仍在00:00换日</p>
           </details>
